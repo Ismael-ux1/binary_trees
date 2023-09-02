@@ -32,9 +32,14 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 		node = queue[front++];
 		func(node->n);
 
-		/* Enqueue the left child if it exists */
+		/* Enqueue the right child if it exists */
 		if (node->right != NULL)
 			queue[back++] = node->right;
+
+		/* Enqueue the left child if it exists */
+		if (node->left != NULL)
+			queue[back++] = node->left;
+
 	}
 
 	/* Free the queue */
