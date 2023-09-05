@@ -19,9 +19,19 @@ bst_t *bst_remove(bst_t *root, int value)
 	else
 	{
 		if (!root->left)
-			return (root->right);
+		{
+			bst_t *temp = root->right;
+
+			free(root);
+			return (temp);
+		}
 		else if (!root->right)
-			return (root->left);
+		{
+			bst_t *temp = root->left;
+
+			free(root);
+			return (temp);
+		}
 
 		bst_t *temp = find_min(root->right);
 
