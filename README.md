@@ -52,35 +52,35 @@ typedef struct binary_tree_s heap_t;
 
 - `binary_tree_node.h`: Defines the structure of a basic binary tree node.
 - `binary_tree_print.c`: C function that prints binary trees
-- `0-binary_tree_node.c`: Creates a new binary tree node.
-- `1-binary_tree_insert_left.c`: Inserts a node as the left child of a given node.
-- `2-binary_tree_insert_right.c`: Inserts a node as the right child of a given node.
-- `3-binary_tree_delete.c`: Deletes an entire binary tree.
-- `4-binary_tree_is_leaf.c`: Checks if a node is a leaf.
-- `5-binary_tree_is_root.c`: Checks if a node is the root of a tree.
-- `6-binary_tree_preorder.c`: Traverses a binary tree using the preorder method.
-- `7-binary_tree_inorder.c`: Traverses a binary tree using the inorder method.
-- `8-binary_tree_postorder.c`: Traverses a binary tree using the postorder method.
-- `9-binary_tree_height.c`: Computes the height of a binary tree.
-- `10-binary_tree_depth.c`: Computes the depth of a given node in a binary tree.
-- `11-binary_tree_size.c`: Computes the size (number of nodes) of a binary tree.
-- `12-binary_tree_leaves.c`: Counts the leaves in a binary tree.
-- `13-binary_tree_nodes.c`: Counts the nodes with at least one child in a binary tree.
-- `14-binary_tree_balance.c`: Computes the balance factor of a binary tree.
-- `15-binary_tree_is_full.c`: Checks if a binary tree is full.
-- `16-binary_tree_is_perfect.c`: Checks if a binary tree is perfect.
-- `17-binary_tree_sibling.c`: Finds the sibling of a given node in a binary tree.
-- `18-binary_tree_uncle.c`: Finds the uncle of a given node in a binary tree.
+-  [0-binary_tree_node.c] (./0-binary_tree_node.c): Creates a new binary tree node.
+-  [1-binary_tree_insert] (./1-binary_tree_insert_left.c): Inserts a node as the left child of a given node.
+- [2-binary_tree_insert_right.c](./2-binary_tree_insert_right.c): Inserts a node as the right child of a given node.
+- [3-binary_tree_delete.c](./3-binary_tree_delete.c): Deletes an entire binary tree.
+-  [4-binary_tree_is_leaf.c](./4-binary_tree_is_leaf.c): Checks if a node is a leaf.
+- [5-binary_tree_is_root.c](./5-binary_tree_is_root.c): Checks if a node is the root of a tree.
+- [6-binary_tree_preorder.c](./6-binary_tree_preorder.c): Traverses a binary tree using the preorder method.
+-  [7-binary_tree_inorder.c](./7-binary_tree_inorder.c)`: Traverses a binary tree using the inorder method.
+- [8-binary_tree_postorder.c](./8-binary_tree_postorder.c): Traverses a binary tree using the postorder method.
+- [9-binary_tree_height.c](./9-binary_tree_height.c): Computes the height of a binary tree.
+- [10-binary_tree_depth.c](./10-binary_tree_depth.c): Computes the depth of a given node in a binary tree.
+- [11-binary_tree_size.c](./11-binary_tree_size.c): Computes the size (number of nodes) of a binary tree.
+- [12-binary_tree_leaves.c](./12-binary_tree_leaves.c): Counts the leaves in a binary tree.
+-  [13-binary_tree_nodes.c](./13-binary_tree_nodes.c): Counts the nodes with at least one child in a binary tree.
+- [14-binary_tree_balance.c](./14-binary_tree_balance.c): Computes the balance factor of a binary tree.
+- [15-binary_tree_is_full.c](./15-binary_tree_is_full.c): Checks if a binary tree is full.
+- [16-binary_tree_is_perfect.c](./16-binary_tree_is_perfect.c): Checks if a binary tree is perfect.
+- [17-binary_tree_sibling.c](./17-binary_tree_sibling.c)`: Finds the sibling of a given node in a binary tree.
+- [18-binary_tree_uncle.c](./18-binary_tree_uncle.c): Finds the uncle of a given node in a binary tree.
 
 ### Binary Search Tree (BST)
 
 - `binary_trees.h`: Header file for BST-specific functions.
-- `100-binary_tree_is_bst.c`: Checks if a binary tree is a valid Binary Search Tree (BST).
-- `101-bst_insert.c`: Inserts a value into a Binary Search Tree.
-- `102-bst_array_to_avl.c`: Converts an array into a Binary Search Tree (BST).
-- `103-array_to_bst.c`: Converts an array into a Balanced Binary Search Tree (BST).
-- `104-bst_search.c`: Searches for a value in a Binary Search Tree (BST).
-- `105-bst_remove.c`: Removes a node from a Binary Search Tree (BST).
+- [101-binary_tree_levelorder.c](./101-binary_tree_levelorder.c): Checks if a binary tree is a valid Binary Search Tree (BST).
+- `[101-binary_tree_levelorder.c](./101-binary_tree_levelorder.c): Inserts a value into a Binary Search Tree.
+- [102-binary_tree_is_complete.c](./102-binary_tree_is_complete.c): Converts an array into a Binary Search Tree (BST).
+- [103-binary_tree_rotate_left.c](./103-binary_tree_rotate_left.c): Converts an array into a Balanced Binary Search Tree (BST).
+- [104-binary_tree_rotate_right.c](./104-binary_tree_rotate_right.c): Searches for a value in a Binary Search Tree (BST).
+- [110-binary_tree_is_bst.c](./110-binary_tree_is_bst.c): Removes a node from a Binary Search Tree (BST).
 
 ## Binary Tree Operations
 
